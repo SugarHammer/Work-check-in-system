@@ -1,0 +1,50 @@
+{
+  "homeInfo": {
+    "title": "首页",
+    "href": "/empwelcome"
+  },
+  "logoInfo": {
+    "title": "工作签到系统",
+    "image": "images/img.png",
+    "href": ""
+  },
+  "menuInfo": [
+    {
+      "title": "常规管理",
+      "icon": "fa fa-address-book",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "员工信息",
+          "href": "",
+          "icon": "fa fa-group",
+          "target": "_self",
+          "child": [
+            {
+              "title": "员工列表",
+              "href": "emp2",
+              "icon": "fa fa-user",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "我的签到",
+          "href": "",
+          "icon": "fa fa-calendar",
+          "target": "_self",
+          "child": [
+            {
+              "title": "签到信息",
+              "href": "empattendance",
+              "icon": "fa fa-list-alt",
+              "target": "_self"
+            }
+          ]
+        }
+
+      ]
+    }
+  ]
+}
